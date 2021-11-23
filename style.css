@@ -18,9 +18,9 @@
 }
 
 @media (max-width:768px) {
-.the-eisenhower-matrix { 
-    text-align: center;
-}
+    .the-eisenhower-matrix { 
+        text-align: center;
+    }
 }
 .centered-main-page-element {
     display: block;
@@ -130,7 +130,7 @@ li >    input[type="text"] {
 
 /* Completed */
 #completed-tasks label {
-    text-decoration: line-through;
+    text-decoration: line-through
     color: #888;
 }
 
