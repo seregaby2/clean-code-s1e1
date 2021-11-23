@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body-page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.the-eisenhower-matrix { text-align: center;
+.the-eisenhower-matrix { 
+    text-align: center;
 }
 }
 .centered-main-page-element {
@@ -118,18 +119,18 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-button.delete-task img {
+.delete-task img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete-task img:hover {
+.delete-task img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
+#completed-tasks label {
+    text-decoration: line-through;
     color: #888;
 }
 
