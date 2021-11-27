@@ -22,7 +22,7 @@
         text-align: center;
     }
 }
-.centered-main-page-element {
+.main-wrapper {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -32,7 +32,7 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.main-wrapper__row {
     display: flex;
 }
 ul {
@@ -121,12 +121,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px;
 }
-.delete-task img {
+.button__delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete-task img:hover {
+.button__delete img:hover {
     transform: rotateZ(0);
 }
 
